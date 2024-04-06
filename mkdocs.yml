@@ -1,0 +1,31 @@
+site_name: MCTManager Docs
+theme: 
+  name: material
+  features:
+    - content.code.copy
+
+extra: 
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/braekpo1nt
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@braekpo1nt
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/braekpo1nt
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+  - pymdownx.mark
+  - attr_list
+
+    
+copyright: |
+  &copy; 2024 <a href="https://github.com/braekpo1nt" target="_blank" rel="noopener">Braekpo1nt</a>
