@@ -1,4 +1,4 @@
-# Commands
+# Commands Old
 
 A comprehensive command reference for the Minecraft Championships (MCT) plugin
 
