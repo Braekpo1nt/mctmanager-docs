@@ -8,8 +8,8 @@ The table below summarizes all MCT commands.
 
 |Command|Description|
 |---|---|
-| [`/mct game`](./commands/game.md)| Start, stop, and vote for games|
-| [`/mct event`](#mct-event)| Start, stop, pause, and resume events|
+| [`/mct game`](./commands/mct-game.md)| Start, stop, and vote for games|
+| [`/mct event`](./commands/mct-event.md)| Start, stop, pause, and resume events|
 | [`/mct team`](#mct-team)| Add/remove, join/leave, and modify teams|
 | [`/mct load`](#mct-load)| Load the game state from memory|
 | [`/mct save`](#mct-save)| Save the game state to memory|

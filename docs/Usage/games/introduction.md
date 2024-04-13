@@ -15,4 +15,10 @@ The game ID refers to a unique identifier used in commands to reference the avai
 |Spleef|`spleef`|
 
 ## Games
+- Capture the Flag
+- Clockwork
+- Foot Race
+- MECHA
+- Parkour Pathway
+- Spleef
 
