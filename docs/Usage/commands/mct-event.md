@@ -15,10 +15,18 @@ This command is used to perform actions related to [Events](../events/events.md)
     - The event will remain paused until you use the `mct event resume` command
 - `mct event resume`
     - If the event is in a paused state, the event will resume from where you paused it. 
+- `mct event finalgame <start|stop>`
+    - `mct event finalgame start <first> <second>`
+        - Starts Colossal Combat between the specified teams. 
+        - The teams must each have at least one online member. 
+        - `<first>` and `<second>` must be different teams.
+    - `mct event finalgame stop`
+        - Stops the active Colossal Combat game. 
 
 ## Arguments
 
 - `<numberOfGames>`: the number of games to play during the event
     - Must be a valid integer (can be negative)
     - Values of 0 or lower result in no games being played before proceeding to the [final duel phase](../events/events.md#final-duel)
-
+- `<first>`: a valid teamId. Must be distinct from `<second>`, and have at least one online member for the game to start.
+- `<second>`: a valid teamId. Must be distinct from `<first>`, and have at least one online member for the game to start.
