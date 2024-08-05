@@ -34,3 +34,14 @@ This command is used to perform actions related to [Events](../events/events.md)
         - `<iteration>`: the iteration of the game you wish to undo (this is necessary because you can configure the event to allow a game to be played more than once, so you must select the iteration you wish to undo)
             - indexes start at `1`. 
     - Each game keeps track of the scores that are awarded to players and teams during the game play. If something goes wrong, or someone cheats, you can undo all the scores earned during that game. All other scores from all other games will be retained, and you will get a report of which scores were undone for your records. 
+- `mct event vote <add|remove>`
+    - `mct event vote add <gameId>`
+        - Arguments:
+            - `<gameId>` the [gameId](../games/introduction.md#game-id) of the game to add to the vote
+        - add the given game to the vote
+    - `mct event vote remove <gameId>`
+        - Arguments:
+            - `<gameId>` the [gameId](../games/introduction.md#game-id) of the game to remove from the vote
+        - Remove the given game from the vote
+    - This lets you modify the voting pool mid-event. Useful for if you want to re-do games or remove games from the rotation. 
+
