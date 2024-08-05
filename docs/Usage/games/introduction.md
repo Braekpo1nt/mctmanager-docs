@@ -10,15 +10,15 @@ The game ID refers to a unique identifier used in commands to reference the avai
 |Capture the Flag|`capture-the-flag`|
 |Clockwork|`clockwork`|
 |Foot Race|`foot-race`|
-|MECHA|`mecha`|
 |Parkour Pathway|`parkour-pathway`|
 |Spleef|`spleef`|
+|Survival Games|`survival-games`|
 
 ## Games
 - Capture the Flag
 - Clockwork
 - Foot Race
-- MECHA
 - Parkour Pathway
 - Spleef
+- Survival Games
 
