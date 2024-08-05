@@ -22,6 +22,8 @@ then activate the virtual environment with your respective operating system's sc
 ```
 source ./venv/bin/activate
 ```
+this also works for Git Bash for Windows.
+
 
 ### Install required packages
 Once inside the virtual environment, you can install the required packages with the following command:
