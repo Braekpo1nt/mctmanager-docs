@@ -22,3 +22,6 @@ The game ID refers to a unique identifier used in commands to reference the avai
 - Spleef
 - Survival Games
 
+## Editors
+
+Certain games have editors to help with the creation of their [config files](../configuration.md).
