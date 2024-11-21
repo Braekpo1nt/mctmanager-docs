@@ -3,6 +3,7 @@ theme:
   name: material
   features:
     - content.code.copy
+    - content.tooltips
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -26,22 +27,28 @@ extra:
       link: https://twitter.com/braekpo1nt
 
 markdown_extensions:
-  - pymdownx.arithmatex:
+  # pymdownx documentation: https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/
+  - admonition # allows you to put warnings or "caution" labels
+  - pymdownx.arithmatex: # preserves latex animations
       generic: true
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.details
+  - pymdownx.highlight: # syntax highlighting support
+      anchor_linenums: true # helps with wrapping, I think
+  - pymdownx.inlinehilite # allows for in-line syntax highlighting with `#!md my code` or `#!py3 my other code`
+  - pymdownx.details # allows for dropdowns
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - footnotes
-  - pymdownx.mark
-  - attr_list
+  - pymdownx.emoji: # use emojis such as :smile: and :heart:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # following 3 elements used for making cool tooltips
+  - abbr # allows for abbreviation definitions so that you hover over RADAR and it shows you a tooltip with whatever it stands for
+  - attr_list # allows for adding specialized html to list elements? 
+  - pymdownx.snippets # allows you to add other document snippets in line of another document
 
-    
+
 copyright: |
   &copy; 2024 <a href="https://github.com/braekpo1nt" target="_blank" rel="noopener">Braekpo1nt</a>

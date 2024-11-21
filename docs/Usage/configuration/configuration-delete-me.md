@@ -1,6 +1,10 @@
-# Configuration Files (Config files)
+# Configuration (Deprecated)
+
+!!! danger
+    This page is deprecated. Please use [configuration.md](configuration.md)
 
 This section describes how to use the various config files for MCTManager.
+
 
 ## Location
 
