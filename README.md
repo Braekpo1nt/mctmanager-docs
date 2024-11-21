@@ -18,11 +18,15 @@ python3 -m venv venv
 
 then activate the virtual environment with your respective operating system's script. For example:
 
+**Windows:**
+```
+source venv/Scripts/activate
+```
+
 **macOS:**
 ```
 source ./venv/bin/activate
 ```
-this also works for Git Bash for Windows.
 
 
 ### Install required packages
