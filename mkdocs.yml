@@ -26,6 +26,10 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/braekpo1nt
 
+extra_css:
+  - stylesheets/nbt-sprite.css
+  - stylesheets/sprite.css
+
 markdown_extensions:
   # pymdownx documentation: https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/
   - admonition # allows you to put warnings or "caution" labels

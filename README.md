@@ -44,3 +44,4 @@ mkdocs serve
 # Resources
 
 I used the instructions from this video to start this up: https://www.youtube.com/watch?v=Q-YA_dA8C20
+Tree views for config files: https://iamkate.com/code/tree-views/

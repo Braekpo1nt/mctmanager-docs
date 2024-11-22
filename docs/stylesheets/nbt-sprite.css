@@ -1,0 +1,46 @@
+/* 
+Allows me to display sprites like those on the https://minecraft.fandom.com/wiki/NBT_format page
+<span class="sprite nbt-sprite" style="background-position:-48px -32px;background-size:64px auto;height:16px;width:16px"></span>
+*/
+
+.sprite {
+    /* sized like an image */
+    display: inline-block;
+    vertical-align: text-top;
+    /* setting the sprite dimensions */
+    height: 16px;
+    width: 16px;
+    /* no image repeats */
+    background-repeat: no-repeat
+}
+
+.nbt-sprite {
+    background-image: url(/assets/images/Nbtsheet.webp)
+}
+
+.tag-byte {background-position:-0px -0px;background-size:64px auto;height:16px;width:16px}
+
+.tag-boolean {background-position:-48px -32px;background-size:64px auto;height:16px;width:16px}
+
+.tag-short {background-position:-16px -16px;background-size:64px auto;height:16px;width:16px}
+
+.tag-int {background-position:-48px -0px;background-size:64px auto;height:16px;width:16px}
+
+.tag-long {background-position:-0px -16px;background-size:64px auto;height:16px;width:16px}
+
+.tag-float {background-position:-32px -0px;background-size:64px auto;height:16px;width:16px}
+
+.tag-double {background-position:-16px -0px;background-size:64px auto;height:16px;width:16px}
+
+.tag-string {background-position:-32px -16px;background-size:64px auto;height:16px;width:16px}
+
+.tag-list {background-position:-32px -32px;background-size:64px auto;height:16px;width:16px}
+
+.tag-compound {background-position:-48px -16px;background-size:64px auto;height:16px;width:16px}
+
+.tag-byte-array {background-position:-0px -32px;background-size:64px auto;height:16px;width:16px}
+
+.tag-int-array {background-position:-16px -32px;background-size:64px auto;height:16px;width:16px}
+
+.tag-long-array {background-position:-0px -48px;background-size:64px auto;height:16px;width:16px}
+
