@@ -1,6 +1,8 @@
 # mctmanager-docs
 Docs for MCTManager
 
+https://braekpo1nt.github.io/mctmanager-docs/
+
 # Contributing
 
 ## Dev Environment Setup
