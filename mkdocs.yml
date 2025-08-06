@@ -1,4 +1,7 @@
 site_name: MCTManager Docs
+repo_url: https://github.com/Braekpo1nt/mctmanager-docs
+repo_name: mctmanager-docs
+
 theme: 
   name: material
   features:
