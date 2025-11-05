@@ -30,6 +30,7 @@ gitGraph
 ```
 
 To merge dev into main:
+
 - Open a pull request
     - Title: Merge dev to main for `vX.Y.Z`
     - Description: optionally summarize changes
